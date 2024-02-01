@@ -18,7 +18,7 @@ export class ChatRoom {
 	handleHome() {
 		return new Response(home, {
 			headers: {
-				'Content-Type': 'text/html;chartset=utf-8',
+				'Content-Type': 'text/html;charset=utf-8',
 			},
 		});
 	}
