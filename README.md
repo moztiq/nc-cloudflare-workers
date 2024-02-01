@@ -1,6 +1,8 @@
 ## Cloudflare Workers View Counter & Realtime Chat
 
 ```shell
+npm i -g wrangler
+
 wrangler init workers-visitors
 cd workers-visitors
 
