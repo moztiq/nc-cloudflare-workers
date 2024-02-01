@@ -2,6 +2,10 @@ name = "workers-visitors"
 main = "src/index.ts"
 compatibility_date = "2024-01-29"
 
+kv_namespaces=[
+	{ binding = "DB", id = "9338be0f76ae43fcbac5142db3d957cf", preview_id = "018ca75988ae45c38120f359016951a0" }
+]
+
 # Variable bindings. These are arbitrary, plaintext strings (similar to environment variables)
 # Note: Use secrets to store sensitive data.
 # Docs: https://developers.cloudflare.com/workers/platform/environment-variables
